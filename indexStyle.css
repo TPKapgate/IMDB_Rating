@@ -1,0 +1,20 @@
+.temp_p{
+    background-color: rgb(205, 165, 242);
+}
+.temp_btn{
+    background-color: rgb(247, 156, 156);
+}
+label{
+    background-color: aqua;
+    border: 1px dotted black;
+    padding: auto;
+}
+#SearchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust as needed */
+  }
+body{
+    background-color: antiquewhite;
+}
