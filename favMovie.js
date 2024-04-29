@@ -10,7 +10,7 @@ function show()
 newdata.forEach(element => {
     console.log(element["id"]);
     // creating URL which will give us JSON based on ID we are providing
-    const res= `http://www.omdbapi.com/?i=${element["id"]}&apikey=eac69ebe`;
+    const res= `https://www.omdbapi.com/?i=${element["id"]}&apikey=eac69ebe`;
     
     // Code to fetch the records based on URL
     fetch(res)
