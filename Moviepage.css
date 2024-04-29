@@ -1,0 +1,20 @@
+body{
+    background-color: darkseagreen;
+}
+h3 , h4{
+    background-color: rgb(125, 207, 47);
+    display: inline-flex;   
+}
+
+#origin{
+    display: flex;
+    background-color: aqua;
+}
+#plotContent
+{
+    padding: 2px;
+    border: 1px solid red;
+    background-color: dimgray;
+    border-radius: 5px;
+}
+
