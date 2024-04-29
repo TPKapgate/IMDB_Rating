@@ -1,0 +1,23 @@
+body{
+    background-color: darkkhaki;
+    /* justify-content: center; */
+    align-items: center;
+}
+h2{
+    color: red;
+}
+.p_tag
+{
+    background-color: rgb(219, 241, 179);
+    color: darkblue;
+}
+#content
+{
+    border: 2px rgb(13, 230, 254) dotted;
+}
+
+button
+{
+    background-color: pink;
+    
+}
