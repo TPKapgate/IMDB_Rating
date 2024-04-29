@@ -64,7 +64,7 @@ function searchHelper(val)
     temp_P.addEventListener('click',function() {
         // insted of using document.location.href I am using window.open to open page in new tab
         // document.location.href = "./mainMovie/Moviepage.html";
-        window.open('./mainMovie/Moviepage.html', '_blank');
+        window.open('./Moviepage.html', '_blank');
         console.log(val["imdbID"]);
         selectedID = val["imdbID"];
         localStorage.setItem('selectedID',selectedID);
@@ -95,7 +95,7 @@ function appendFav(id, mealName) {
 // Adding Event listner on click of Favourite Button    
 favBtn.addEventListener('click',function() {
     // document.location.href = "./favMovie/favMovie.html";
-    window.open('./favMovie/favMovie.html');
+    window.open('./favMovie.html');
 });
 
 
