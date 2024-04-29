@@ -10,7 +10,7 @@ const rating = document.getElementById('rating');
 const lst = document.getElementById('cast');
 
 // this we are creating custom URl to get url based on id
-const resource = `http://www.omdbapi.com/?i=${selectedID}&apikey=eac69ebe`;
+const resource = `https://www.omdbapi.com/?i=${selectedID}&apikey=eac69ebe`;
 
 // Fetching Records
 fetch(resource)
